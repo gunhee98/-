@@ -1,3 +1,6 @@
+function solution(n){
+  return !(n % (n + "").split("").reduce((a, b) => +b + +a ));
+}
 /*function solution(x) {
     var answer = true;
     let str=String(x);
@@ -9,6 +12,7 @@
     return answer;
 }
 */
+/*
 function solution(x) {
     let num = x;
     let sum = 0;
@@ -19,3 +23,4 @@ function solution(x) {
 
     return !(num%sum);
 }
+*/
